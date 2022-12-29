@@ -48,7 +48,7 @@ width: 100%;
  transform: transition;
  }
  .bg-pink:hover{
-    background-color: rgb(4, 4, 41);
+    background-color: rgb(8, 8, 78);
     transition: .2s;
  }
 
@@ -64,6 +64,11 @@ width: 100%;
     padding: 15px 45px;
     transform:transition ;
     
+    }
+
+    .but input:hover{
+        background-color: rgb(32, 32, 32);
+        transition: ease 0.3s;
     }
 
 body{

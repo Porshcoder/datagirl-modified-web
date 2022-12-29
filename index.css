@@ -31,7 +31,7 @@
     background: #e4048b;
     position: absolute;
     left: 0;
-    bottom:-10px;
+    bottom: 12px;
     transition: 0.5s;
 }
 .navbar ul li:hover::after{
@@ -43,10 +43,12 @@ width: 100%;
  color: white;
  border-radius: 30px;
  border: transparent;
- padding: 5px 60px ;
+ padding: 5px 55px ;
  transform: transition;
  }
  .bg-pink:hover{
     background-color: rgb(4, 4, 41);
     transition: .2s;
  }
+
+ 

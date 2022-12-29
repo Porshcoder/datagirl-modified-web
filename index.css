@@ -44,7 +44,7 @@ width: 100%;
  color: white;
  border-radius: 30px;
  border: transparent;
- padding: 5px 30px ;
+ padding: 5px 25px ;
  transform: transition;
  }
  .bg-pink:hover{
@@ -67,11 +67,11 @@ width: 100%;
     }
 
 body{
-    background-image: url(./images/image4.jpg);
+    background-image: url(./images/image6.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 

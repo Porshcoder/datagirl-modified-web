@@ -5,12 +5,13 @@
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .navbar ul li{
@@ -43,12 +44,35 @@ width: 100%;
  color: white;
  border-radius: 30px;
  border: transparent;
- padding: 5px 55px ;
+ padding: 5px 30px ;
  transform: transition;
  }
  .bg-pink:hover{
     background-color: rgb(4, 4, 41);
     transition: .2s;
  }
+
+ .font.bg-alt{
+    color:#e4048b;
+}
+
+.but input{
+    border: none;
+    background-color: #e4046b;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 45px;
+    transform:transition ;
+    
+    }
+
+body{
+    background-image: url(./images/image4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+}
+
 
  

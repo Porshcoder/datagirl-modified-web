@@ -233,6 +233,10 @@ body{
         transform: scale(1.5);
     }
     
+    .contact-details{
+        line-height: 30px;
+    }
+
     .links a{
        display: block;
        text-decoration: none;
@@ -240,5 +244,13 @@ body{
        line-height: 38px;
     }
    
+    .bg-pin{
+        background-color: #e4046b;
+        height: 70px;
+    }
+
+    .log{
+        line-height: 30px;
+    }
    
     

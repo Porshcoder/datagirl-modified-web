@@ -94,3 +94,11 @@ body{
 .margin1{
     margin-left: 28px;
 }
+
+.bg{
+    background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./images/image5.png); 
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+    font-size: 18px;
+}

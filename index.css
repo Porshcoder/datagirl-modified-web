@@ -32,7 +32,7 @@
     background: #e4048b;
     position: absolute;
     left: 0;
-    bottom: 12px;
+    bottom: 5px;
     transition: 0.5s;
 }
 .navbar ul li:hover::after{
@@ -79,5 +79,18 @@ body{
     margin-top: 5px;
 }
 
-
+.center{
+    text-align: center;
+}
  
+.radio{
+    border-radius: 20px;
+}
+
+.radius{
+    border-radius: 120px;
+}
+
+.margin1{
+    margin-left: 28px;
+}

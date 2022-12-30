@@ -76,11 +76,12 @@ width: 100%;
     }
 
 body{
-    background-image: url(./images/image6.png);
+    background-image: url(./images/image4.jpg);
     background-position:top;
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 5px;
+    background-color: rgb(228, 226, 226);
 }
 
 .center{
@@ -97,14 +98,19 @@ body{
 
 .margin1{
     margin-left: 28px;
+    line-height: 30px;
 }
 
 .bg{
-    background-image:url(./images/image5.png); 
+    background-image:url(./images/image4.jpg); 
     width: 100%;
     height: 100%;
     line-height: 35px;
     font-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
 }
 
 .size{
@@ -123,7 +129,6 @@ body{
     color:#000;
     padding-bottom: 10px;
     text-transform: uppercase;
-
 }
 
 
@@ -133,13 +138,11 @@ body{
     display: block;
     height: 3px;
     width: 170px;
-    margin: 20px auto 5px;
-    
+    margin: 20px auto 5px; 
 }
 
 .testimonial .row{
     margin-top: 30px;
-
 }
 
 .col-md-4{
@@ -209,7 +212,7 @@ body{
     }
 
     footer{
-        background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(./images/image1.webp);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/image1.webp);
         position: relative;
         width: 100%;
         min-height: 350px;
@@ -218,7 +221,24 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 0 2rem;
+        
     }
 
+    .social a i{
+        color:lightblue;
+        transition: 0.3s ease;
+    }
+
+    .social a i:hover{
+        transform: scale(1.5);
+    }
+    
+    .links a{
+       display: block;
+       text-decoration: none;
+       color: #e4046b;
+       line-height: 38px;
+    }
+   
+   
     

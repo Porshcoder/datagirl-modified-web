@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+:root{
+    --primary:rgb(202, 202, 12);
+}
+
 .navbar{
     width: 100%;
     margin: auto;
@@ -112,6 +116,7 @@ body{
     padding: 10px;
 }
 
+
 .testimonial h1{
     text-align: center;
     font-weight: bold;
@@ -176,33 +181,6 @@ body{
     color: #000;
 }
 
-blockquote{
-    font-size: 14px;
-    line-height: 30px;
-
-}
-
-blockquote::before{
-    content: '\93';
-    font-size: 50px;
-    position: relative;
-    color: #2c16bb;
-    line-height: 20px;
-    bottom: -15px;
-    right: 5px;
-
-}
-
-blockquote::after{
-    content: '\94';
-    font-size: 50px;
-    position: relative;
-    color: #2c16bb;
-    line-height: 10px;
-    bottom: -15px;
-    left:5px;
-
-}
 
 .profile:hover{
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);

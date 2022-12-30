@@ -102,3 +102,110 @@ body{
     line-height: 35px;
     font-size: 18px;
 }
+
+.size{
+    font-size: 30px;
+}
+
+.testimonial{
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.testimonial h1{
+    text-align: center;
+    font-weight: bold;
+    color:#000;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+
+.testimonial h1::after{
+    content: "";
+    background: #e4046b;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+
+.testimonial .row{
+    margin-top: 30px;
+
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 10px 5px 5px;
+    background-color: #efefef;
+}
+
+.profile img{
+    top: -40px; 
+    position: relative;
+    left: calc(50% -50%);
+    border: 10px solid white;
+}
+
+.user{
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #2c16bb;
+
+}
+
+.size{
+    font-size: 14px;
+    color: #000;
+}
+
+.colour{
+    color: #000;
+}
+
+blockquote{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: #2c16bb;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+
+}
+
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #2c16bb;
+    line-height: 10px;
+    bottom: -15px;
+    left:5px;
+
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}

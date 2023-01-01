@@ -4,9 +4,6 @@
     font-family: sans-serif;
 }
 
-:root{
-    --primary:rgb(202, 202, 12);
-}
 
 .navbar{
     width: 100%;
